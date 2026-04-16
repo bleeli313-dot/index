@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Airelectrifica-Caribe | Transición a Energía Eléctrica en el Caribe</title>
+    <meta name="description" content="Guía profesional para sustituir tecnologías de combustibles fósiles por sistemas eléctricos en el Caribe. Ahorra y cuida el medio ambiente con energía limpia.">
+    <meta name="keywords" content="electrificación caribe, energía renovable, sustitución combustibles fósiles, ahorro energético colombia, sistemas eléctricos eficientes">
+    <link rel="canonical" href="index.html">
+    <meta name="author" content="YENI CAROLINA ACEVEDO ESCANDON">
+
+    <meta property="og:title" content="Airelectrifica-Caribe | Transición Energética">
+    <meta property="og:description" content="Tips y estrategias para electrificar tu hogar o negocio en la región Caribe.">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Airelectrifica-Caribe",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cl. 32b #324",
+        "addressLocality": "Girardot",
+        "addressRegion": "Cundinamarca",
+        "postalCode": "252431",
+        "addressCountry": "CO"
+      },
+      "telephone": "+573002322563",
+      "email": "bleeli313@gmail.com",
+      "openingHours": "Mo-Su 08:00-17:00"
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #0077b6; /* Azul Caribe */
+            --secondary: #00b4d8;
+            --accent: #2d6a4f; /* Verde Eléctrico */
+            --light: #f8f9fa;
+            --dark: #212529;
+            --text-gray: #495057;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--dark); line-height: 1.6; background-color: #ffffff; }
+        
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* HEADER */
+        header { background: #fff; padding: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary); text-decoration: none; }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: var(--dark); font-weight: 500; font-size: 0.9rem; transition: 0.3s; }
+        .nav-links a:hover { color: var(--primary); }
+
+        /* HERO SECTION */
+        .hero { background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; padding: 100px 0; color: #fff; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .hero p { font-size: 1.25rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .cta-btn { display: inline-block; padding: 15px 35px; background-color: var(--secondary); color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px; font-size: 1.1rem; transition: 0.3s; border: none; cursor: pointer; }
+        .cta-btn:hover { background-color: var(--primary); transform: translateY(-2px); }
+
+        /* SECCIONES COMUNES */
+        section { padding: 80px 0; }
+        .section-title { text-align: center; margin-bottom: 50px; }
+        .section-title h2 { font-size: 2.2rem; color: var(--primary); margin-bottom: 10px; }
+        .section-title p { color: var(--text-gray); }
+
+        /* BENEFICIOS */
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .benefit-card { background: var(--light); padding: 30px; border-radius: 10px; text-align: center; border-top: 5px solid var(--accent); }
+        .benefit-card h3 { margin-bottom: 15px; color: var(--accent); }
+
+        /* SERVICIOS / PROPUESTA */
+        .services { background-color: #f1f3f5; }
+        .service-list { list-style: none; }
+        .service-item { display: flex; align-items: flex-start; margin-bottom: 20px; padding: 20px; background: #fff; border-radius: 8px; }
+        .service-item span { background: var(--primary); color: #fff; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; border-radius: 50%; margin-right: 15px; flex-shrink: 0; }
+
+        /* PRUEBA SOCIAL */
+        .social-proof { text-align: center; background: var(--primary); color: #fff; padding: 60px 0; }
+        .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .stat-item h4 { font-size: 2.5rem; margin-bottom: 5px; }
+
+        /* FORMULARIO */
+        .contact-container { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+        form { background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: 500; }
+        .form-group input, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; }
+        .form-group input:focus { border-color: var(--primary); outline: none; }
+        
+        /* TRANSPARENCIA */
+        .transparency-info { font-size: 0.95rem; }
+        .transparency-info h3 { margin-bottom: 20px; color: var(--primary); }
+        .info-list { list-style: none; }
+        .info-list li { margin-bottom: 10px; padding-left: 25px; position: relative; }
+        .info-list li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
+
+        /* FOOTER */
+        footer { background: var(--dark); color: #fff; padding: 50px 0 20px; }
+        .footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 30px; }
+        .footer-legal a { color: #ccc; text-decoration: none; margin-right: 15px; font-size: 0.8rem; }
+        .footer-legal a:hover { color: #fff; }
+        .copy { border-top: 1px solid #333; padding-top: 20px; text-align: center; font-size: 0.8rem; color: #888; }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .contact-container { grid-template-columns: 1fr; }
+            nav { flex-direction: column; gap: 15px; }
+            .nav-links { display: flex; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { margin: 5px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">Airelectrifica-Caribe</a>
+            <div class="nav-links">
+                <a href="#beneficios">Beneficios</a>
+                <a href="#proceso">Guía</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Transforma tu Energía: Del Combustible a la Electricidad</h1>
+        <p>Expertos en el proceso de sustitución de sistemas fósiles por tecnologías eléctricas eficientes para el clima caribeño.</p>
+        <a href="#contacto" class="cta-btn">Descarga tu Guía de Transición Eléctrica</a>
+    </div>
+</section>
+
+<section id="beneficios">
+    <div class="container">
+        <div class="section-title">
+            <h2>Beneficios de la Electrificación</h2>
+            <p>Por qué el Caribe está liderando el cambio hacia sistemas 100% eléctricos.</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h3>Ahorro Real</h3>
+                <p>Reduce los costos operativos hasta en un 40% al eliminar la dependencia de combustibles costosos y volátiles.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Mantenimiento Simple</h3>
+                <p>Los motores y sistemas eléctricos tienen menos piezas móviles, reduciendo las paradas técnicas y gastos de reparación.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Sostenibilidad</h3>
+                <p>Cero emisiones directas de CO2, contribuyendo a la protección de los ecosistemas marinos y costeros.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proceso" class="services">
+    <div class="container">
+        <div class="section-title">
+            <h2>Nuestra Propuesta de Valor</h2>
+            <p>Pasos claros para una sustitución tecnológica sin contratiempos.</p>
+        </div>
+        <div class="service-list">
+            <div class="service-item">
+                <span>1</span>
+                <div>
+                    <h4>Diagnóstico de Consumo</h4>
+                    <p>Evaluamos tus equipos actuales basados en combustibles fósiles y calculamos la potencia eléctrica necesaria.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <span>2</span>
+                <div>
+                    <h4>Selección de Tecnología</h4>
+                    <p>Recomendamos sistemas eléctricos diseñados para resistir la salinidad y humedad del Caribe.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <span>3</span>
+                <div>
+                    <h4>Plan de Implementación</h4>
+                    <p>Diseñamos el cronograma de cambio para que tu operación no se detenga durante la transición.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="social-proof">
+    <div class="container">
+        <div class="stat-grid">
+            <div class="stat-item">
+                <h4>+500</h4>
+                <p>Hogares Asesorados</p>
+            </div>
+            <div class="stat-item">
+                <h4>100%</h4>
+                <p>Energía Limpia</p>
+            </div>
+            <div class="stat-item">
+                <h4>24/7</h4>
+                <p>Soporte Técnico</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <div class="container">
+        <div class="contact-container">
+            <div>
+                <form id="landingForm">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Cuéntanos sobre tu proyecto</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Ej: Quiero cambiar mi sistema de calefacción de gas a eléctrico..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn" style="width: 100%;">Solicitar Guía Gratuita</button>
+                </form>
+            </div>
+            <div class="transparency-info">
+                <h3>Información de Contacto y Transparencia</h3>
+                <p>En Airelectrifica-Caribe valoramos la honestidad. Aquí están nuestros datos de contacto reales:</p>
+                <ul class="info-list" style="margin-top: 20px;">
+                    <li><strong>Responsable:</strong> YENI CAROLINA ACEVEDO ESCANDON</li>
+                    <li><strong>Ubicación:</strong> Cl. 32b #324, Girardot, Cundinamarca</li>
+                    <li><strong>Horario:</strong> Lunes a Domingo - 8:00 AM a 5:00 PM</li>
+                    <li><strong>Teléfono:</strong> +57 300 232 2563</li>
+                    <li><strong>Email:</strong> bleeli313@gmail.com</li>
+                </ul>
+                <p style="margin-top: 20px; font-size: 0.85rem; color: #666;">* No compartimos tus datos con terceros. La información proporcionada es solo para fines informativos sobre electrificación.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div style="max-width: 400px;">
+                <h4 style="margin-bottom: 15px;">Airelectrifica-Caribe</h4>
+                <p style="font-size: 0.9rem; color: #ccc;">Liderando la transición energética en la región caribeña mediante educación y tecnología eléctrica de vanguardia.</p>
+            </div>
+            <div class="footer-legal">
+                <h4 style="margin-bottom: 15px;">Legal</h4>
+                <a href="politica-de-privacidad.html">Política de Privacidad</a>
+                <a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; <span id="year"></span> YENI CAROLINA ACEVEDO ESCANDON. Todos los derechos reservados. Girardot, Colombia.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Actualizar año automáticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Manejo del formulario (Prevenir recarga y mostrar éxito)
+    document.getElementById('landingForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const btn = this.querySelector('button');
+        btn.textContent = 'Enviando...';
+        btn.disabled = true;
+
+        setTimeout(() => {
+            alert('¡Gracias! Hemos recibido tu solicitud. Te enviaremos la guía a tu correo en breve.');
+            this.reset();
+            btn.textContent = 'Solicitar Guía Gratuita';
+            btn.disabled = false;
+        }, 1500);
+    });
+</script>
+
+</body>
+</html>
